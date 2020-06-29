@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#8500f9" />
+  <meta name="description"
+    content="A simple game to test your vocabulary and your memory, with a little bit of fun. Let's see what are all the words that you know?" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/images/icons/icon-192x192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <title>All The Words That I Know</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-analytics.js"></script>
+
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyDGQ42W8FL-475f2WZ0FSE7ewuYdcWHVKI",
+      authDomain: "all-the-words-that-i-know.firebaseapp.com",
+      databaseURL: "https://all-the-words-that-i-know.firebaseio.com",
+      projectId: "all-the-words-that-i-know",
+      storageBucket: "all-the-words-that-i-know.appspot.com",
+      messagingSenderId: "538949544833",
+      appId: "1:538949544833:web:774337a30d2ca510d2d680",
+      measurementId: "G-PTEFNFWQ4H"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+</body>
+
+</html>
