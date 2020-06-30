@@ -15,6 +15,10 @@ Let's see what are all the words that you know? 🎮
 
 ![Word-O-Mania Logo](git-images/logo.png)
 
+# Demo
+
+![demo gif](git-images/word-o-mania.gif)
+
 ## Play the Game
 
 ### [https://word-o-mania.viralsangani.me](https://word-o-mania.viralsangani.me)
